@@ -36,8 +36,12 @@ h3{
 	padding:45px;
 	border-bottom: 2px solid #cccccc;
 }
+.navbar-default .navbar-nav>li{
+	margin-top:25px;
+}
 .navbar-default .navbar-nav>li>a{
-	margin-top:10px;
+	padding: 0 8px;
+	margin-right:10px;
 	border-left: 1px solid #efefef;
 }
 
@@ -69,6 +73,7 @@ h3{
 /*sidebar*/
 .panel{
 	border:0px;
+	text-align:center;
 }
 .icons{
 	width:40px;
