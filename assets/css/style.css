@@ -8,7 +8,26 @@ body{
 /*general*/
 .content, .panel-default>.panel-heading, .navbar{
 	background:#fff;
-	border:1px solid;
+}
+h1, h2, h3{
+	color: #4aaaa5;
+	margin-bottom:25px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight:bold;
+}
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:30px;	
+}
+h3{
+	font-size:20px;
+}
+hr{
+	margin-top:0;
+	margin-bottom:25px;
+	border:1.5px solid #cccccc;
 }
 /*navbar*/
 .navbar-brand, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
@@ -17,22 +36,74 @@ body{
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 30px;
 	font-weight: 700;
-	padding:40px;
+	padding:45px;
+	border-bottom: 2px solid #cccccc;
+}
+.navbar-default .navbar-nav>li>a{
+	margin-top:10px;
+	border-left: 1px solid #efefef;
+}
+/*about me*/
+
+.thumbnail{
+	float:left;
+	margin-right:20px;
+	padding:0px;
+}
+.content{
+	position:static;
 }
 
-
+/*portfolio*/
+.exampleNames{
+	position: relative;
+    bottom: 64px;
+    height: 50px;
+    width: 100%;
+    background: #00aba0;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+.col-md-6{
+	width:35%;
+}
 /*sidebar*/
 
 .panel{
 	border:0px;
 }
 .icons{
-	width:50px;
-	height:50px;
+	width:40px;
+	height:40px;
 }
 
 /*footer*/
-.navbar-text{
+
+.navbar-fixed-bottom{
+	padding: 10px;
+	text-align: center;
+	background: #666666;
+	border-top: 5px solid #4aaaa5;
+	
+}
+.navbar-default .navbar-text{
+	font-size:16px;
 	width:100%;
 	text-align:center;
+	color: #D3D3D3;
+}
+
+@media only screen and (max-width:980px){
+	.examples{
+		width:30%;
+	}
+}
+
+@media only screen and (max-width:640px){
+	.navbar-fixed-bottom{
+		position:static; 
+	}
 }
