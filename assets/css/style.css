@@ -3,6 +3,7 @@ body{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 25px;
+	margin-bottom:100px;
 }
 
 /*general*/
@@ -24,11 +25,7 @@ h2{
 h3{
 	font-size:20px;
 }
-hr{
-	margin-top:0;
-	margin-bottom:25px;
-	border:1.5px solid #cccccc;
-}
+
 /*navbar*/
 .navbar-brand, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
 	background: #4aaaa5;
@@ -43,8 +40,8 @@ hr{
 	margin-top:10px;
 	border-left: 1px solid #efefef;
 }
-/*about me*/
 
+/*about me*/
 .thumbnail{
 	float:left;
 	margin-right:20px;
@@ -52,6 +49,7 @@ hr{
 }
 .content{
 	position:static;
+	padding-bottom:30px;
 }
 
 /*portfolio*/
@@ -70,8 +68,8 @@ hr{
 .col-md-6{
 	width:35%;
 }
-/*sidebar*/
 
+/*sidebar*/
 .panel{
 	border:0px;
 }
@@ -81,12 +79,12 @@ hr{
 }
 
 /*footer*/
-
 .navbar-fixed-bottom{
 	padding: 10px;
 	text-align: center;
 	background: #666666;
 	border-top: 5px solid #4aaaa5;
+
 	
 }
 .navbar-default .navbar-text{
@@ -96,12 +94,16 @@ hr{
 	color: #D3D3D3;
 }
 
-@media only screen and (max-width:980px){
+.examples{
+	position:relative;
+	display:inline-block;
+}
+/*@media only screen and (max-width:990px){
 	.examples{
 		width:30%;
 	}
 }
-
+*/
 @media only screen and (max-width:640px){
 	.navbar-fixed-bottom{
 		position:static; 
