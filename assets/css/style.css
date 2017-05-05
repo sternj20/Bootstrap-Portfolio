@@ -37,14 +37,16 @@ h3{
 	border-bottom: 2px solid #cccccc;
 }
 .navbar-default .navbar-nav>li{
-	margin-top:25px;
+	margin-top:35px;
 }
 .navbar-default .navbar-nav>li>a{
 	padding: 0 8px;
 	margin-right:10px;
 	border-left: 1px solid #efefef;
 }
-
+.navbar-default.navbar-nav>li>a: first-child {
+  border-left: 0 none;
+}
 /*about me*/
 .thumbnail{
 	float:left;
@@ -53,10 +55,15 @@ h3{
 }
 .content{
 	position:static;
-	padding-bottom:30px;
+	border: 1px solid #ddd
 }
 
 /*portfolio*/
+.examples{
+	position:relative;
+	display:inline-block;
+}
+
 .exampleNames{
 	position: relative;
     bottom: 64px;
@@ -94,11 +101,6 @@ h3{
 	width:100%;
 	text-align:center;
 	color: #D3D3D3;
-}
-
-.examples{
-	position:relative;
-	display:inline-block;
 }
 
 @media only screen and (max-width:640px){
